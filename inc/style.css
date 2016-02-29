@@ -1,0 +1,40 @@
+/*
+Theme Name: KIN
+Description: The Minimalist style photography template
+Version: 1.2
+Author: Peerapong Pulpipatnan
+Author URI: http://themeforest.net/user/peerapong
+*/
+
+@import "css/screen.css";
+
+#ivycat-slider h3 {
+	display: none
+}
+.ngg-gallery-thumbnail img {
+	margin: 4px 0px 24px 4px ! important;
+	height: auto ! important;
+	max-width: 75% ! important;
+}
+#grid_view_products_page_container .screen-reader-text {
+	display: none
+}
+
+#grid_view_products_page_container .search-form {
+	float: right;
+	margin: -60px 145px 0 0;
+}
+
+.wpsc-upsell {
+	display: block;
+	margin: 5px 0;
+	width: 360px;
+}
+
+.wpsc_upsells_cart_note {
+	display: block;
+	font-style: italic;
+}
+.wpsc-purchase-log-transaction-results {
+	border-spacing: 80px 20px;
+}
